@@ -9,7 +9,7 @@ const Footer = () => {
     <Div>
       <StyledFooter>
         <p>Built with React, Framer Motion and Styled Components. Coded in VS Code.</p>
-        <a href="https://github.com/ILKAY-BRAHIM/ILKAY" target='_blank' rel="noreferrer">
+        <a href="https://github.com/ILKAY-BRAHIM/react_portfolio" target='_blank' rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} /> 
         </a>
       </StyledFooter>
