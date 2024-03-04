@@ -24,6 +24,7 @@ const StyledArchive = styled(Container)`
 display: flex;
 align-items: center;
 flex-direction: column;
+text-align: center;
 padding: 0;
 max-width: 800px;
 p, h3 {
