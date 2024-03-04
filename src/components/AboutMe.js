@@ -7,22 +7,15 @@ function AboutMe() {
 
   return (
     <StyledAboutMe>
-      <motion.p >I bring an  background in automating, configuring, and optimizing virtualized environments to meet the demanding needs of high-traffic applications. With a  command of Vagrant, I construct and manage consistent development environments, facilitating a seamless bridge between development and production. My expertise in Kubernetes allows me to orchestrate containerized applications with precision, ensuring scalable, fault-tolerant systems that adapt fluidly to user demands. I harness the power of Docker to encapsulate application dependencies in lightweight containers, boosting portability and efficiency. <br /> 
+      <motion.p >Experienced Software Engineer specializing in backend development, utilizing Python and Django to create robust, scalable solutions. 
+        Proficient in designing efficient server-side architectures, RESTful APIs, and database management, I collaborate seamlessly with cross-functional 
+        teams to deliver high-quality software products. As a skilled DevOps programmer, I excel in deploying infrastructure as code using Terraform and orchestrating 
+        containerized applications with Docker and Kubernetes. My expertise extends to implementing CI/CD pipelines with Jenkins, enhancing project efficiency. Motivated by a 
+        passion for innovation, I thrive in dynamic environments, contributing a strategic mindset, strong problem-solving abilities, 
+        and a commitment to staying current with industry best practices.<br /> 
       <br/></motion.p> <br />
-      <p className='bold'>Recent technologies I've used:</p>
+      <p className='bold'>Langage I use:</p>
         <Technologies>
-          <Social>
-            <Circle/>
-            <li>Vagrant</li>
-          </Social>
-          <Social>
-            <Circle/>
-            <li>kubernetes</li>
-          </Social>
-          <Social>
-            <Circle/>
-            <li>Docker</li>
-          </Social>
           <Social>
             <Circle/>
             <li>C++</li>
@@ -30,6 +23,18 @@ function AboutMe() {
           <Social>
             <Circle/>
             <li>C</li>
+          </Social>
+          <Social>
+            <Circle/>
+            <li>Bash Scripting</li>
+          </Social>
+          <Social>
+            <Circle/>
+            <li>Javascript</li>
+          </Social>
+          <Social>
+            <Circle/>
+            <li>Python</li>
           </Social>
         </Technologies>
     </StyledAboutMe>  

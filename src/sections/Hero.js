@@ -20,7 +20,7 @@ const HeroSection = () => {
                 </motion.div>
                 <Hide>
                     <motion.p variants={slideAnim.up}> 
-                    I using Kubernetes, Docker, and Vagrant to streamline development pipelines and production deployments. My expertis ensures scalable, efficient, and reliable systems, enabling continuous integration and delivery. I’m dedicated to automation, infrastructure optimization, and embody the agility required for high-performing tech environments.</motion.p>
+                    A Moroccan 🇲🇦 Software Engineering student and Software Developer.</motion.p>
                 </Hide>     
                 <ButtonContainer>
                     <Hide>

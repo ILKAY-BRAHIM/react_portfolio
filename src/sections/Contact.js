@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import { useScroll } from '../util/useScroll';
-import { faPhone } from '@fortawesome/fontawesome-free-solid';
+import { faFile, faPhone } from '@fortawesome/fontawesome-free-solid';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -29,7 +29,7 @@ const Contact = () => {
             <IconContainer variants={slideAnim.up}>
                 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             </IconContainer>
-            <motion.a variants={slideAnim.up}>brahimloca125@gmail.com</motion.a>
+            <motion.a variants={slideAnim.up}>ibrahimchifour@gmail.com</motion.a>
             </Info>
           </Hide>
           <Hide>
@@ -39,6 +39,16 @@ const Contact = () => {
             </IconContainer>
             <motion.a variants={slideAnim.up} href="https://www.linkedin.com/in/brahim-chifour-639652239/" target="_blank" rel="noopener noreferrer">
             LinkedIn
+            </motion.a>
+          </Info>
+          </Hide>
+          <Hide>
+            <Info>
+            <IconContainer variants={slideAnim.up}>
+              <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
+            </IconContainer>
+            <motion.a variants={slideAnim.up} href="https://drive.google.com/file/d/15ilr62KBv3g4laM9SdRezQQqKCiLkuRZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Resume
             </motion.a>
           </Info>
           </Hide>
