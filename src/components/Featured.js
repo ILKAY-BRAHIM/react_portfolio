@@ -40,8 +40,6 @@ function Featured({title, image, text, link, technologies}) {
 
 const FeaturedProject = styled(motion.div)`
   margin-bottom: 4rem;
-  @media (min-width: 850px) {
-  }
 `;
 
 const Header = styled.div`
@@ -65,8 +63,13 @@ const AboutText = styled.div`
 const More = styled.div`
 padding: 1rem;
 display: flex;
+flex-wrap: wrap;
 gap: 0.75rem;
 align-items: center;
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
 `
 
 const About = styled.div`
@@ -78,25 +81,14 @@ const Image = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  // justify-content: center;
   overflow: hidden;
   padding: 0rem 1rem;
   img {
     width: 100%;
     height: 70%;
     border-radius: 1rem;
-    object-fit: scale-down; 
-    // border: 1px solid var(--color-main);
-    // shadow: 20px 20px 20px var(--color-main);
+    object-fit: scale-down;
   }
 `
-
-
-
-// const img = styled.image`
-//   width: 100%;
-//   height: 200px;
-//   object-fit: cover;
-// `
 
 export default Featured;

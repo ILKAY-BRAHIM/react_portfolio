@@ -31,6 +31,7 @@ const StackContainer = styled(motion.div)`
     background: var(--color-bg);
     padding: 2rem 0;
     border-radius: 20px;
+    flex-wrap: wrap;
     h4{
         font-size: 0.8rem;
         margin-top: 1rem;
