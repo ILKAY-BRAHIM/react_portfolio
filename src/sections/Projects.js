@@ -7,7 +7,8 @@ import Archive from '../components/Archive';
 import Inception from "../assets/img/inception-logo_1.png"
 import WebServ from "../assets/img/webserv-logo.png"
 import Inception_of_thing from "../assets/img/kubernetes-logo.png"
-import work_on from "../assets/img/working-on_1.png"
+import work_on from "../assets/img/bgp.png"
+import lainer from "../assets/img/ft_linear_regression.png"
 
 const tech_Inception = [
   "Docker",
@@ -41,6 +42,13 @@ const tech_bgp = [
   "Optimization",
 ]
 
+const tech_lainer = [
+  "Linear_Regression",
+  "Normalization",
+  "cost_function",
+  "gradient_descent",
+]
+
 function Projects() {
   return (
       <StyledProjects id="projects">
@@ -55,6 +63,15 @@ function Projects() {
             ultimately deepening my understanding of networking principles."
             link="https://github.com/ILKAY-BRAHIM/Bgp-At-Doors-of-Autonomous-Systems-is-Simple"
             technologies={tech_bgp} />
+        <Featured 
+            title="Ft Linear Regression"
+            image={lainer} 
+            text="
+            In my AI initiation, I constructed a program to forecast car prices. Employing fundamental machine learning, I trained a linear regression 
+            model with gradient descent. This project marks my initial venture into the realm of AI and Machine Learning, providing valuable hands-on experience in 
+            implementing algorithms for predictive analysis."
+            link="https://github.com/ILKAY-BRAHIM/ft_linear_regression"
+            technologies={tech_lainer} />
         <Featured 
             title="Inception_of_things"
             image={Inception_of_thing} 
