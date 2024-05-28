@@ -47,7 +47,7 @@ const Contact = () => {
             <IconContainer variants={slideAnim.up}>
               <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
             </IconContainer>
-            <motion.a variants={slideAnim.up} href="https://drive.google.com/file/d/1Dao01Yw7QQrBLVHVLp7e076eh7NLeeFT/view" target="_blank" rel="noopener noreferrer">
+            <motion.a variants={slideAnim.up} href="https://drive.google.com/file/d/16CdTwTgUVyrk3NGhELMMgYam769gqUBM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume
             </motion.a>
           </Info>
